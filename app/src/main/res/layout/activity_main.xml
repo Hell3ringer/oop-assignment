@@ -54,6 +54,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/toolbar"
+
             app:srcCompat="@drawable/circle" />
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -71,6 +72,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1">
                 <RelativeLayout
+                    android:id="@+id/inv"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <TextView
@@ -98,6 +100,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1">
                 <RelativeLayout
+                    android:id="@+id/rem"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <TextView
@@ -136,6 +139,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1">
                 <RelativeLayout
+                    android:id="@+id/todo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <TextView
@@ -163,6 +167,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1">
                 <RelativeLayout
+                    android:id="@+id/doc"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <TextView
@@ -200,6 +205,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1">
                 <RelativeLayout
+                    android:id="@+id/share"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <TextView
@@ -209,7 +215,7 @@
                         android:layout_below="@id/cycle"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
-                        android:text="Bus"
+                        android:text="Share"
                         android:textSize="24sp"
                         app:fontFamily="@font/aclonica" />
                     <ImageView
@@ -227,6 +233,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1">
                 <RelativeLayout
+                    android:id="@+id/profile"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <TextView
@@ -236,7 +243,7 @@
                         android:layout_below="@id/airplane"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
-                        android:text="Share"
+                        android:text="Profile"
                         android:textSize="24sp"
                         app:fontFamily="@font/aclonica" />
                     <ImageView
