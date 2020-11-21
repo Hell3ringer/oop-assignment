@@ -10,6 +10,7 @@ import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
     private RelativeLayout inv,doc,profile,share,rem,todo;
+    private Intent intent;
 
 
     private void setUI(){
@@ -21,17 +22,56 @@ public class MainActivity extends AppCompatActivity {
         todo=findViewById(R.id.todo);
 
         inv.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
-                setActivity();
+                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+
+            }
+        });
+        rem.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+
+            }
+        });
+        todo.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+
+            }
+        });
+        doc.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+
+            }
+        });
+        share.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+
+            }
+        });
+        profile.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+
             }
         });
 
     }
-    private void setActivity(){
-        Intent intent = new Intent(this,Inventory.class);
-        startActivity(intent);
-    }
+
 
 
 
