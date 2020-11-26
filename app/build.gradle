@@ -9,7 +9,10 @@ android {
 
     defaultConfig {
         applicationId "com.example.tracker"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1

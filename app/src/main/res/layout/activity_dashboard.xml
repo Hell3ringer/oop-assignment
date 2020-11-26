@@ -6,7 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2290E8"
+<<<<<<< HEAD
     tools:context=".inventory">
+=======
+    tools:context=".Dashboard">
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

@@ -11,19 +11,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tracker">
         <activity android:name=".addCategory"/>
+<<<<<<< HEAD
 
         <activity android:name=".inventory" >
 
         </activity>
         <activity android:name="com.example.dashbord.Dashboard">
+=======
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".Inventory" />
+        <activity android:name=".Dashboard" >
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name="com.example.dashbord.Profile"/>
 
+=======
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
         <activity android:name=".Search" />
         <activity android:name=".Update" />
         <activity android:name=".additem" />

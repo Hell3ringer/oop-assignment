@@ -7,11 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+<<<<<<< HEAD
 import com.example.tracker.R;
 import com.example.tracker.inventory;
 
 public class Dashboard extends AppCompatActivity {
 
+=======
+public class Dashboard extends AppCompatActivity {
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
     private RelativeLayout inv,doc,profile,share,rem,todo;
     private Intent intent;
 
@@ -28,7 +32,11 @@ public class Dashboard extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 startActivity(intent = new Intent(Dashboard.this, inventory.class));
+=======
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
 
             }
         });
@@ -36,7 +44,11 @@ public class Dashboard extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 startActivity(intent = new Intent(Dashboard.this,Profile.class));
+=======
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
 
             }
         });
@@ -44,7 +56,11 @@ public class Dashboard extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 startActivity(intent = new Intent(Dashboard.this,Profile.class));
+=======
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
 
             }
         });
@@ -52,7 +68,11 @@ public class Dashboard extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 startActivity(intent = new Intent(Dashboard.this,Profile.class));
+=======
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
 
             }
         });
@@ -60,7 +80,11 @@ public class Dashboard extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 startActivity(intent = new Intent(Dashboard.this,Profile.class));
+=======
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
 
             }
         });
@@ -68,7 +92,11 @@ public class Dashboard extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 startActivity(intent = new Intent(Dashboard.this,Profile.class));
+=======
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
 
             }
         });

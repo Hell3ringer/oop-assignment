@@ -6,11 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+<<<<<<< HEAD
     tools:context=".inventory">
+=======
+    tools:context=".Dashboard">
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+<<<<<<< HEAD
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -28,6 +33,14 @@
 
         </LinearLayout>
 
+=======
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:text="DASHBORD"
+            android:textSize="40dp"/>
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
 
         <androidx.recyclerview.widget.RecyclerView
 

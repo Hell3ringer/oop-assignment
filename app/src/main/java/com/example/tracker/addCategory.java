@@ -51,7 +51,11 @@ public class addCategory extends AppCompatActivity {
 
 
     private void setActivity() {
+<<<<<<< HEAD
         Intent intent = new Intent(this, inventory.class);
+=======
+        Intent intent = new Intent(this, Dashboard.class);
+>>>>>>> 461fd97716a8e5e41eac52117f4b695a504458d2
         intent.putExtra("catname",catname1);
         startActivity(intent);
     }
