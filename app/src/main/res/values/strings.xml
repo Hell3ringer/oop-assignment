@@ -1,4 +1,6 @@
-<resources>
+
+
+</resources>
     <string name="app_name">Tracker</string>
     <string name="sr_no">Sr.no</string>
     <string name="name">Name</string>
@@ -6,3 +8,4 @@
     <string name="add">+</string>
     <string name="type">Type</string>
 </resources>
+
