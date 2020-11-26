@@ -4,11 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-public class MainActivity extends AppCompatActivity {
+public class Dashboard extends AppCompatActivity {
     private RelativeLayout inv,doc,profile,share,rem,todo;
     private Intent intent;
 
@@ -25,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
 
             }
         });
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
 
             }
         });
@@ -41,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
 
             }
         });
@@ -49,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
 
             }
         });
@@ -57,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
 
             }
         });
@@ -65,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                startActivity(intent = new Intent(MainActivity.this,Inventory.class));
+                startActivity(intent = new Intent(Dashboard.this,Inventory.class));
 
             }
         });
@@ -78,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_dashboard);
         setUI();
 
 
